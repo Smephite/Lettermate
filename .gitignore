@@ -1,0 +1,8 @@
+output/
+tmp/
+latex_files/*.aux
+latex_files/*.log
+latex_files/*.fls
+latex_files/*.fdb_latexmk
+latex_files/*.synctex.gz
+latex_files/template.pdf

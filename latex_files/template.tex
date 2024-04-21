@@ -1,0 +1,34 @@
+\documentclass[11pt]{cicsletter}
+\usepackage[inkscapeformat=png]{svg}
+
+\name{John Smith} % used as signature, if no signature is specified
+
+\signature{John Smith\\ Selbsternannter Experte}
+
+\date{\today} % if no date specified, today's date is used 
+
+\subject{the CICS letterhead} % optional subject line
+
+\begin{document}
+
+
+\begin{letter}{
+==NAME== ==SURNAME==
+\\ 
+== ADDRESSE ==}
+
+\opening{Dear Sir,}
+
+Anbei finden Sie einen QR Code zum senden.
+
+\includegraphics[width=0.15\linewidth]{==QR_CODE==}
+
+\closing{Sincerely,}
+
+\ps{Please see the enclosed file.}
+
+\cc{John Smith}
+
+\end{letter}
+
+\end{document}
